@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.open {   
+    height: 69px;
+    background-color: #FFFFFF;
+    display: flex;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+}
+.open1 { 
+    width: 1200px;
+    height: 29px;
+    border: solid 1px black;
+    display: flex;
+}
+.text {
+    font-size: 17px;
+    color: #1C2752;
+    text-align: center;
+}
+.logo {
+
+}
+.bluecolor {    
+    height: 158px;
+    background-color: white;
+    display: flex;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+}
+.blClr {
+    width: 1200px;
+    height: 128px;
+}
