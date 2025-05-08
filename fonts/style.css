@@ -2,11 +2,16 @@
     padding: 0;
     margin: 0;
 }
-.open {   
+body {
+    background-color: #F5F5F5;
+}
+header {
+    justify-content: center;
+    align-items: center;    
+}
+.open {    
     height: 69px;
-    background-color: #FFFFFF;
     display: flex;
-    border: solid 1px black;
     justify-content: center;
     align-items: center;
 }
@@ -15,24 +20,67 @@
     height: 29px;
     border: solid 1px black;
     display: flex;
+    align-items: center;
+    
 }
 .text {
     font-size: 17px;
     color: #1C2752;
     text-align: center;
+    margin-left: 120px;
+}
+/* .zxc { 
+    list-style-type: 20px;
+}*/
+.znk {
+    flex-direction: row;
 }
 .logo {
-
+    display: flex;
+    margin-left: 567px;
+    align-items: center;
 }
-.bluecolor {    
-    height: 158px;
+.obsh1 {    
+    height: 128px;
     background-color: white;
     display: flex;
-    border: solid 1px black;
     justify-content: center;
-    align-items: center;
 }
 .blClr {
     width: 1200px;
     height: 128px;
+    justify-content: center;
+    border: solid 1px black;
 }
+.obsh2 {    
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.nadpici {
+    width: 1200px;
+    height: 88px;
+    align-items: center;
+    font-size: 19px;
+    background-color: #FFB342;
+    top: 128px;
+}
+.vdol {
+    flex-direction: row;
+}
+.fotoStr {
+    display: flex;
+    background-image: url(/img/centr.png);
+    background-repeat: no-repeat;
+    height: 813px;
+}   
+
+.vnutriFTStr {
+    height: 332.98px;
+    width: 720px;
+    border: solid 1px rgb(241, 240, 240);
+    left: 120px;
+    top: 260px;
+}
+
