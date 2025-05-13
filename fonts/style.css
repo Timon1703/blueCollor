@@ -1080,4 +1080,10 @@ body {
     grid-template: repeat(7,27px) 19px 12px 251px; 
     row-gap: 20px;
 }
-.tar2txt
+.tar2txt {
+     display: grid;
+    height: 309px;
+    width: 300px;
+    grid-template: repeat(7,27px) 19px 12px 251px; 
+    row-gap: 20px;
+}
