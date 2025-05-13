@@ -161,7 +161,7 @@ body {
     display: grid;
     height: 88px;
     width: 97px;
-    font-size: 80;
+    font-size: 80px;
     color: #FFB342;
     justify-content: center;
     align-items: center;
@@ -775,9 +775,72 @@ body {
     display: grid;
     width: 591px;
     height: 378px;
-    grid-template-rows: 165px 25px 55px;
-    row-gap: 0%;
     border: solid 1px #DDDDDD;
+}
+.nansy1 {
+    display: grid;
+    width: 299px;
+    height: 808px;
+    grid-template-rows: 98px 1px 20px 108px 23px 50px;
+    row-gap: 0%;
+    margin: 41px;
+}
+.nansy2 {
+    display: grid;
+    width: 121px;
+    height: 50px;
+    grid-template-columns: 70px 10px 139px 234px 55px;
+    column-gap: 0%;
+    align-items: start;
+}
+.textNansy2 {
+    display: grid;
+    width: 139px;
+    height: 77px;
+    grid-template-rows: 10px 31px 27px;
+    row-gap: 0%;
+}
+.psto {
+    display: grid;
+    width: 509px;
+    height: 1px;
+    border: #DDDDDD solid 1px;
+}
+.txtNansy02 {
+    display: flex;
+    font-size: 22px;
+    color: #1C2752;
+}
+.txtNansy03 {
+    display: flex;
+    font-size: 18px;
+    color: #7E7E7E;
+}
+.textNansy {
+    display: flex;
+    font-size: 18px;
+    color: #7E7E7E;
+}
+.kovychki {
+    display: grid;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: #FFB342;
+}
+.skobki {
+    display: grid;
+    width: 121px;
+    height: 50px;
+    grid-template-columns: 50px 21px 50px;
+    column-gap: 0%;
+}
+.skobki1 {
+    display: grid;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #F4F4F4;
 }
 .any {
     display: grid;
@@ -800,12 +863,9 @@ body {
     width: 511px;
     height: 178px;
     grid-template-rows: 30px 27px 21px 33px 13px 54px;
-    border: solid 1px #190e0e;
 }
 .cusSat99 {
     display: flex;
-    height: 33px;
-    width: 452px;
     color: #1C2752;
     font-size: 25px;
     align-items: center;
@@ -828,16 +888,17 @@ body {
     gap: 10px;
 }
 .nomer {
-    display: flex;
+    display: grid;
     height: 55px;
     width: 357px;
+    grid-template-columns: 50px 20px 287px;
+    column-gap: 0%;
 }
 .logoNomer {
     display: flex;
     background-color: #FFFFFF;
     border-radius: 100%;
-    height: 50px;
-    width: 50px;
+    align-items: center;
 }
 .pst02 {
     display: flex;
@@ -933,10 +994,6 @@ body {
     grid-template-rows: 10px 27px 22px 59px 45px 59px;
     row-gap: 0%;
 }
-/* .pst2 { 
-    display: flex;
-    height: 10px;
-}*/
 .clients1 {
     display: flex;
     height: 27px;
@@ -945,10 +1002,6 @@ body {
     gap: 10px;
     justify-content: center;
 }
-/* .pst3 { 
-    display: flex;
-    height: 22px;
-}*/
 .ourTBC {
     display: flex;
     align-items: center;
@@ -956,10 +1009,6 @@ body {
     font-size: 45px;
     color: #1C2752;
 }
-/* .pst4 { 
-    display: flex;
-    height: 45px;
-}*/
 .bbbc {
     display: flex;
     height: 59px;
@@ -970,55 +1019,65 @@ body {
     display: flex;
     align-items: center;
 }
-/* .pst1 { 
+/* .lxxl { 
     display: flex;
-    height: 60px;
+    rotate: ;
 }*/
-/* .mn7 { 
-    display: flex;
+.mn7 {
     height: 1352px;
+    display: flex;
     justify-content: center;
 }
-.pricePlan {
+.letCats {
     display: grid;
     height: 1352px;
+    width: 1440px;
     justify-content: center;
-    grid-template-rows: 140px 195px 40px 663px 62px 124px;
-    row-gap: 0%;
+    align-items: center;
 }
-.prPlane {
+.letCats1 {
+    display: grid;
+    height: 1084px;
+    width: 1200px;
+    justify-content: center;
+    grid-template-rows: 195px 40px 663px 62px 124px;
+    row-gap: 0%;
+    border: #222222 1px solid;
+}
+.tarif {
     display: grid;
     height: 663px;
     width: 1200px;
-    grid-template: repeat(3,380px)/repeat(3,663px);
+    grid-template-columns: repeat(3,380px);
     column-gap: 30px;
-    border: solid 1px #180c0c;
+    border: #222222 1px solid;
 }
-.box13 {
+.tarif1 {
     display: grid;
-    width: 380px;
     height: 663px;
-    background-color: #FFFFFF;
-    justify-items: center;
-    justify-content: center;
-    grid-template-columns: 111px 309px 55px 68px 30px;
-    row-gap: 0%; 
+    width: 380px;
+    border: #222222 1px solid;
 }
-.box1401 {
+.tarif2 {
     display: grid;
-}
-.knopkaBN {
-    display: flex;
+    margin: 40px;
+    height: 583px;
     width: 300px;
-    height: 68px;
-    background-color: #FFB342;
-    justify-items: center;
-    align-items: center;  
+    grid-template-rows: 111px 1px 29px 309px 55px 68px 10px; 
+    row-gap: 0%;
+    border: #222222 1px solid;
 }
-.tet {
-    font-size: 20px;
-    color: #1C2752;
+.pstLC {
+    display: grid;
+    width: 300px;
+    height: 1px;
+    border: #d7d7d7 1px solid;
 }
-.prPLANE {
-
+.tarif2txt {
+    display: grid;
+    height: 309px;
+    width: 300px;
+    grid-template: repeat(7,27px) 19px 12px 251px; 
+    row-gap: 20px;
 }
+.tar2txt
